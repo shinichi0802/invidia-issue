@@ -1,0 +1,19 @@
+[global]
+ioengine=io_uring
+size=4k
+offset=0x14B4A00
+direct=1
+buffered=0
+randrepeat=0
+norandommap=1
+group_reporting
+filename=test.dat
+time_based=1
+runtime=36000
+
+[Dma Error Write]
+rw=randwrite
+bs=3584
+iodepth=1
+numjobs=1
+stonewall
