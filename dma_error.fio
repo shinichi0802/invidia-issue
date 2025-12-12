@@ -14,6 +14,6 @@ runtime=36000
 [Dma Error Write]
 rw=randwrite
 bs=3584
-iodepth=1
+iodepth=16
 numjobs=1
 stonewall
